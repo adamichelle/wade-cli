@@ -81,5 +81,5 @@ Doing this install the project globally for you on your machine allowing you to 
 ## Feature ideas
 - [x] Project starter folder generator
 - [x] Automate GitHub repository creation workflow
-- [] Refresh github access token.
-- [] Allow users to be able to only create remote repo from terminal without making any git actions locally.
+- [ ] Refresh github access token.
+- [ ] Allow users to be able to only create remote repo from terminal without making any git actions locally.
