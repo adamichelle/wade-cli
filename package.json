@@ -1,0 +1,41 @@
+{
+  "name": "wade-cli",
+  "version": "1.0.0",
+  "description": "A tech bro's command line personal assistant",
+  "main": "index.js",
+  "bin": {
+    "wade": "bin/wade-cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cli",
+    "personal assistant",
+    "git intialization and setup"
+  ],
+  "author": "Adaobi Aniuchi",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^4.8.0",
+    "chalk": "^4.1.2",
+    "clui": "^0.3.6",
+    "commander": "^8.1.0",
+    "conf": "^10.0.2",
+    "esm": "^3.2.25",
+    "gitignore": "^0.7.0",
+    "inquirer": "^8.1.2",
+    "license": "^1.0.3",
+    "simple-git": "^2.45.0",
+    "simple-octokit": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "proxyquire": "^2.1.3",
+    "sinon": "^11.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
